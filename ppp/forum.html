@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Дивний Сайт</title>
+<script>
+        var audio = new Audio('polska katka v dota ne ruzam dupa z klopa.wav');
+        
+        audio.addEventListener('ended', function() {
+            this.currentTime = 0;
+            this.play();
+        });
+        
+        function playMusic() {
+            audio.play();
+        }
+        
+        function pauseMusic() {
+            audio.pause();
+        }
+    </script>
+    <style>
+ body {
+            background-color: lime;
+            font-family: 'Comic Sans MS', cursive;
+            
+        }
+
+        header {
+            text-align: center;
+            margin: 20px 0;
+            transform: scale(0.8);
+        }
+
+        main {
+            padding: 20px;
+            border: 10px dotted purple;
+        }
+
+        section {
+            margin-bottom: 40px;
+            border: 2px solid pink;
+            padding: 10px;
+        }
+
+        h1, h2 {
+            color: purple;
+            text-decoration: underline;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            font-size: 50px;
+            margin-bottom: 10px;
+            transform: skewX(-10deg);
+        }
+
+        p {
+            color: blue;
+            font-size: 20px;
+            transform: rotate(5deg) scale(1.2);
+            line-height: 1.5;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            border: 5px dashed pink;
+            filter: invert(100%);
+            transform: rotateY(180deg) scale(0.8);
+        }
+
+        ul {
+            list-style-type: none;
+            margin-left: 30px;
+            padding-left: 20px;
+            border-left: 5px solid purple;
+        }
+
+        li:before {
+            content: "🌟";
+            margin-right: 10px;
+            animation: spin 5s linear infinite;
+            transform: scale(1.5);
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        footer {
+            text-align: center;
+            color: red;
+            font-style: italic;
+            padding: 20px 0;
+            background-color: pink;
+        }
+         {
+            background-color: black;
+            color: white;
+            font-family: 'Comic Sans MS', cursive;
+            transform: rotate(180deg);
+        }
+
+        header {
+            text-align: center;
+            margin: 20px 0;
+            transform: scale(0.8);
+        }
+
+        main {
+            padding: 20px;
+            border: 10px dotted purple;
+        }
+
+        section {
+            margin-bottom: 40px;
+            border: 2px solid pink;
+            padding: 10px;
+        }
+
+        h1, h2 {
+            color: purple;
+            text-decoration: underline;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            font-size: 50px;
+            margin-bottom: 10px;
+            transform: skewX(-10deg);
+        }
+
+        p {
+            color: blue;
+            font-size: 20px;
+            transform: rotate(5deg) scale(1.2);
+            line-height: 1.5;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            border: 5px dashed pink;
+            filter: invert(100%);
+            transform: rotateY(180deg) scale(0.8);
+        }
+
+        ul {
+            list-style-type: none;
+            margin-left: 30px;
+            padding-left: 20px;
+            border-left: 5px solid purple;
+        }
+
+        li:before {
+            content: "🌟";
+            margin-right: 10px;
+            animation: spin 5s linear infinite;
+            transform: scale(1.5);
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        footer {
+            text-align: center;
+            color: red;
+            font-style: italic;
+            padding: 20px 0;
+            background-color: pink;
+        }
+
+        /* Жуткие стили */
+        body {
+            background-color: #330033;
+        }
+
+        h1, h2 {
+            color: #FF9900;
+        }
+
+        p {
+            color: #CC00FF;
+        }
+
+        img {
+            border: 5px solid #FF9900;
+            filter: grayscale(100%);
+        }
+
+        ul {
+            border-left: 5px solid #FF9900;
+        }
+
+        li:before {
+            content: "👻";
+            margin-right: 10px;
+        }
+
+        footer {
+            background-color: #660033;
+        }
+        {
+        background-color: black;
+        color: white;
+        font-family: 'Comic Sans MS', cursive;
+        transform: rotate(180deg);
+    }
+
+    /* Остальные стили */
+
+    /* Страшные стили */
+    body {
+        background-color: #000000;
+    }
+
+    h1, h2 {
+        color: #FF0000;
+        text-shadow: 3px 3px 5px #FF0000;
+    }
+
+    p {
+        color: #FFFFFF;
+    }
+
+    img {
+        filter: grayscale(100%) invert(100%);
+    }
+
+    ul {
+        border-left: 5px solid #FF0000;
+    }
+
+    li:before {
+        content: "👻";
+        margin-right: 10px;
+    }
+
+    footer {
+        background-color: #330000;
+        color: #FF0000;
+    }
+    {
+        background-color: #000;
+        color: #999;
+        font-family: Arial, sans-serif;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #666;
+    }
+
+    p {
+        color: #777;
+        font-size: 14px;
+        line-height: 1.2;
+        letter-spacing: 2px;
+    }
+
+    /* Дополнительные стили для усложнения чтения */
+    body {
+        text-shadow: 2px 2px 4px #000;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 1.5;
+        word-spacing: 6px;
+    }
+      .player-container {
+            text-align: center;
+        }
+        
+        .player-button {
+            font-size: 20px;
+            padding: 10px 20px;
+            background-color: #337ab7;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+            </style>
+</head>
+<body>
+    <header>
+        <h1>Ласкаво просимо на дивний сайт!</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Дивний вміст</h2>
+            <p>Тут ви знайдете такий дивний вміст, який може порушити ваше уявлення про реальність.</p>
+            <img src="strange_image.gif" alt="Странное изображение">
+            <p>Це тільки початок... продовжуйте прокручувати донизу, щоб дізнатися більше.</p>
+        </section>
+
+        <section>
+            <h2>Заголовок без сенсу</h2>
+            <p>Текст, який нічого не означає, але ви все одно читаєте його.</p>
+            <img src="weird.gif" alt="Странное изображение">
+        </section>
+
+        <section>
+            <h2>Список дивацтв</h2>
+            <ul>
+                <li>Пінгвіни можуть літати, якщо надіти на них ракетні ранці.</li>
+                <li>Існує паралельний всесвіт, де все навпаки.</li>
+                <li>Чайник може грати на піаніно краще ніж Моцарт.</li>
+                <div class="player-container">
+        <button class="player-button" onclick="playMusic()">плей</button>
+        <button class="player-button" onclick="pauseMusic()">Пауза</button>
+    </div>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 Дивний сайт. Всі права захищені. Копіювання диваків заборонено.</p>
+    </footer>
+</body>
+</html>
